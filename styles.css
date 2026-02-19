@@ -6,6 +6,37 @@
     --color-primario: #E63946
 }
 
+.hero {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.hero__contenido h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero__contenido p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.hero__btn {
+    padding: 12px 25px;
+    background-color: var(--color-primario);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -51,6 +82,27 @@ body {
     color: #45f6;
 }
 
-.navegador .navegador__link .navegador__link--especial:hover {
-    color: transparent;
+
+
+.historias {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 20px;
+}
+
+
+.historias__informacion {
+    background-color: #fff;
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+    padding: 80px 20px;
+
+}
+
+.historias__informacion:hover {
+    transform: translateY(-10px);
 }
