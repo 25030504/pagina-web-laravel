@@ -106,3 +106,39 @@ body {
 .historias__informacion:hover {
     transform: translateY(-10px);
 }
+
+.page {
+    padding: 40px 20px;
+}
+
+.page__header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.news,
+.videos,
+.players {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.news__card,
+.video__card,
+.player__profile {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.video__placeholder {
+    height: 150px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
